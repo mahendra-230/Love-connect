@@ -13,15 +13,18 @@ const Header = () => {
             <Link to="/">Home</Link>
             
             <Link to="/about">About</Link>
-            {/* <Link to="/message">Message</Link> */}
+            <Link to="/message">Message</Link>
             <Link to="/contact">Contact us</Link>
             <Link to="/settings">Settings</Link>
-            <Link to="/login">Login</Link>
-            <Link to="/signup">Sign Up</Link>
             <Link to="/dashboard">Dashboard</Link>
-          </nav>
-          
-        </div>
+            <nav className='right-navBar'>
+            <Link to="/login"><button>Login</button></Link>
+            <Link to="/signup"><button>Sign Up</button></Link>
+            </nav>
+            </nav>
+            
+            </div>
+        
     </div>
   )
 }

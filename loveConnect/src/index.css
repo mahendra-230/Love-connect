@@ -282,6 +282,21 @@ ul li, ol li {
   border-radius: 5px;
   display: inline-block;
 }
+.right-navBar{
+  float: right;
+  margin-right: 10px;
+  display: flex;
+  
+}
+.right-navBar button{
+  height: 30px;
+  padding: 0px 3px;
+  margin-left: 0px;
+  justify-content: space-evenly;
+  position: relative;
+  top: -30px;
+}
+
 
 .btn-primary:hover {
   background-color: #cc3755;

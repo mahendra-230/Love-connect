@@ -10,7 +10,7 @@ import DashBoard from './components/DashBoard';
 import About from './components/About';
 import Contact from './components/Contact';
 import Settings from './components/Settings';
-// import Message from './components/Message';
+import Message from './components/Message';
 
 const App = () => {
   return (
@@ -18,13 +18,13 @@ const App = () => {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
-        {/* <Route path='message' element={<Message />}/> */}
+        <Route path='message' element={<Message />}/>
         <Route path='about' element={<About />} />
         <Route path='contact' element={<Contact />} />
         <Route path='settings' element={<Settings />} />
+        <Route path='dashboard' element={<DashBoard />} />
         <Route path='login' element={<Login />} />
         <Route path='signup' element={<SignUP />} />
-        <Route path='dashboard' element={<DashBoard />} />
       </Routes>
     </div>
   );
